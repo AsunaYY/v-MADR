@@ -18,7 +18,7 @@ time1;
     
     
 %% %%%------------------------primal vMADR----------------------%%%    
-load('MSDData.mat')    
+load('MSDData.mat');    
     
 %% model = vMADR_ASGD_train(trainY, sparse(trainX), [lambda1, lambda2, C, epsilon], '-s 1 -k 0');    
 %% preY = vMADR_ASGD_predict(sparse(testX), sparse(trainX), model);    
